@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=false"
+    />
+    <title></title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      #lines {
+        display: grid;
+        grid-template-columns: 150px 70%;
+      }
+      #toSelect {
+        margin-left: 20px;
+        display: grid;
+        grid-template-rows: 30px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main style="width: 80vw; height: 100vh" id="viz"></main>
+    <main id="lines">
+      <div id="toSelect"></div>
+      <main style="width: 90vw; height: 100vh" id="viz1"></main>
+    </main>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
