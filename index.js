@@ -1,4 +1,4 @@
-import Chart from "./Chart.js";
+import Chart from "./chart.js";
 
 class bar extends Chart {
   constructor(id, data, width, height) {
