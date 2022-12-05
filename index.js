@@ -98,7 +98,7 @@ class line extends Chart {
         .datum(data)
         .attr("d", line)
         .attr("fill", "none")
-        .attr("stroke", (d) => this.color(d[0]));
+        .attr("stroke", ( ) => this.color(d));
 
       // this.ChartArea.selectAll("mytext")
       //   .data([0])
